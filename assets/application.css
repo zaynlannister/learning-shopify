@@ -620,6 +620,10 @@ video {
   margin-left: 0.75rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }
