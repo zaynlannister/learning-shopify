@@ -34,11 +34,11 @@
                 {% endfor %}
             </div>
             <div class="md:hidden">
-                <div class="swiper h-94">
+                <div class="swiper">
                     <div class="swiper-wrapper">
                         {% for media in product.media %}
                             <div class="swiper-slide">
-                                <div class="h-80 overflow-hiden p-2">
+                                <div class="h-[100vw] overflow-hidden p-2">
                                     {% render 'product-media', media: media %}
                                 </div>
                             </div>
